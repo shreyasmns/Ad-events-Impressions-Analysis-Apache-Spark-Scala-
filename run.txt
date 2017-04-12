@@ -1,0 +1,1 @@
+spark-submit --deploy-mode client --class com.ae.reco.data.AdsReport /home/maitray/spark_test/target/scala-2.11/data-processing-assembly-2.0.jar events.txt ads.txt output_folder
